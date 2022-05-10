@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendors/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid px-1 ps-3">
+            <a class="navbar-brand pe-4 me-auto" href="#">
+                <img src="logo.svg">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item d-flex align-items-center pe-2">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            Browse
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center pe-1">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            Landings
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center pe-1">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            Pages
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center pe-2">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            Accounts
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center pe-4">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <input type="text" class="border rounded p-3 ps-5 w-100" placeholder="Search Courses">
+                        <div class="d-inline-block position-absolute top-50 start-0 translate-middle ms-4">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex me-3">
+                <div
+                    class="r-circle m-l-blue-magenta cursor-pointer border-0 rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="far fa-bell"></i>
+                </div>
+                <div class="r-circle cursor-pointer border-0 rounded-circle ms-3 overflow-hidden">
+                    <img src="avatar-card-2.jpg" class=" avatar">
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="hero container-fluid">
+        <div class="w-1130 container row m-auto p-0">
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <h1 class="f-w-bolder text-white">Welcome to Geeks UI Learning Application</h1>
+                <h4>
+                    Hand-picked Instructor and expertly crafted courses, designed for the modern students and
+                    entrepreneur.
+                </h4>
+                <div class="buttons d-inline mt-3">
+                    <button class="f-w-bold px-4 py-3 border-0 rounded btn1">Browser Courses</button>
+                    <button class="f-w-bold px-4 py-3 border-0 rounded btn2">Are You Instructor?</button>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="hero.png" class="h-100">
+            </div>
+        </div>
+    </div>
+    <div class="rem-body container-fluid p-0">
+     <div class="container">
+        <div class="b-hero container-fluid bg-white shadow-sm py-4">
+            <div class="w-1130 container row m-auto p-0">
+                <div class="col-4 d-flex">
+                    <div
+                        class="icon-container border-0 rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="m-0 ms-3 d-flex flex-column justify-content-center text-left">
+                        <div class="f-s-17 f-w-bold">30,000 online courses</div>
+                        <div class="blue-magenta">Enjoy a variety of fresh topics</div>
+                    </div>
+                </div>
+                <div class="col-4 d-flex">
+                    <div
+                        class="icon-container border-0 rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="m-0 ms-3 d-flex flex-column justify-content-center text-left">
+                        <div class="f-s-17 f-w-bold">Expert instruction</div>
+                        <div class="blue-magenta">Find the right instructor for you</div>
+                    </div>
+                </div>
+                <div class="col-4 d-flex">
+                    <div
+                        class="icon-container border-0 rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="m-0 ms-3 d-flex flex-column justify-content-center text-left">
+                        <div class="f-s-17 f-w-bold">Lifetime access</div>
+                        <div class="blue-magenta">Learn on your schedule</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1130 container row m-auto p-0">
+            <div class="pt-5 mb-4">
+                <h3 class="f-w-bold mt-5">Recommended to you</h3>
+                <div class="d-flex flex-row mt-4">
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/graph ql.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">GraphQL: Introduction to graphQL for beginners</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 2h 40m  Advance
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">2.5</div>
+                                    <div class="m-l-blue-magenta d-inline">(1,500)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$500</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$600</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto">Brooklyn Simmons</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/javascript.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">A Complete Beginner's Guide to JavaScript</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 4h 10m  Advance
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">3.5</div>
+                                    <div class="m-l-blue-magenta d-inline">(7,500)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$700</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$850</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto">Brooklyn Simmons</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/node js.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">Beginning Node.js, Express & MongoDB Development</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 2h 00m  Intermediate
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">4.0</div>
+                                    <div class="m-l-blue-magenta d-inline">(15,700)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$800</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$950</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto">Sina Ray</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/laravel.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">Laravel: The Ultimate Beginner's Guide to Learn</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 1h 00m  Beginner
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">4.5</div>
+                                    <div class="m-l-blue-magenta d-inline">(2,500)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$170</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$220</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto">Sobo Rikhan</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 mb-4">
+                <h3 class="f-w-bold mt-5">Most Popular</h3>
+                <div class="d-flex flex-row mt-4">
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/html 5.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">HTML Full Course - Build a Website Tutorial</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 3h 16m  Beginner
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">3.0</div>
+                                    <div class="m-l-blue-magenta d-inline">(1,600)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$550</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$700</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto">Miston Wilson</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/javascript.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">A Complete Beginner's Guide to JavaScript</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 4h 10m  Advance
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">3.5</div>
+                                    <div class="m-l-blue-magenta d-inline">(7,500)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$700</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$850</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto">Brooklyn Simmons</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/node js.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">Beginning Node.js, Express & MongoDB Development</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 2h 00m  Intermediate
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">4.0</div>
+                                    <div class="m-l-blue-magenta d-inline">(15,700)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$800</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$950</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto">Sina Ray</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/react.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">How to easily create a website with React</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 3h 55m  Advance
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">4.5</div>
+                                    <div class="m-l-blue-magenta d-inline">(1,500)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$600</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$750</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto">April Noms</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 mb-5">
+                <h3 class="f-w-bold mt-5">Trending</h3>
+                <div class="d-flex flex-row mt-4">
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/gatsby.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">Revolutionize how you build the web</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 1h 46m  Intermediate
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">2.0</div>
+                                    <div class="m-l-blue-magenta d-inline">(16,500)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$800</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$850</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto">Jenny Wilson</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/html 5.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">HTML Full Course - Build a Website Tutorial</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 3h 16m  Beginner
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">3.0</div>
+                                    <div class="m-l-blue-magenta d-inline">(1,600)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$550</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$700</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto">Miston Wilson</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/node js.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">Beginning Node.js, Express & MongoDB Development</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 2h 00m  Intermediate
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">4.0</div>
+                                    <div class="m-l-blue-magenta d-inline">(15,700)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$800</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$950</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto sina">Sina Ray</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="cursor-pointer b-r-9 card border-0 shadow-sm overflow-hidden m-1">
+                            <img src="img/laravel.jpg" class="w-100">
+                            <div class="card-body p-4 border-bottom">
+                                <h5 class="f-s-17 card-title">Laravel: The Ultimate Beginner's Guide to Learn</h5>
+                                <p class="blue-magenta card-text">
+                                    <i class="fas fa-clock"></i> 1h 00m  Beginner
+                                </p>
+                                <p class="card-text">
+                                    <div class="m-l-brown f-s-10-5 d-inline">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="m-l-brown d-inline ms-1">4.5</div>
+                                    <div class="m-l-blue-magenta d-inline">(2,500)</div>
+                                </p>
+                                <div class="card-text">
+                                    <div class="f-w-bold d-inline">$170</div>
+                                    <strike class="m-l-blue-magenta f-s-13 d-inline">$220</strike>
+                                </div>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-row align-items-center">
+                                <div class="blue-magenta ms-2 ps-1 me-auto ">Sobo Rikhan</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 pt-1">
+                <div class="border-top mt-5 py-3 d-flex flex-row">
+                    <div class="blue-magenta d-inline me-auto">© 2022 Geeks. All Rights Reserved.</div>
+                    <div class="d-flex flex-row">
+                        <a href="" class="blue-magenta text-decoration-none d-inline px-3 mx-1">Privacy</a>
+                        <a href="" class="blue-magenta text-decoration-none d-inline px-3 mx-1">Terms</a>
+                        <a href="" class="blue-magenta text-decoration-none d-inline px-3 mx-1">Feedback</a>
+                        <a href="" class="blue-magenta text-decoration-none d-inline px-3 mx-1">Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+        
+    </div>
+
+</body>
+
+</html>
